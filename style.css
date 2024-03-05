@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(img/img.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -2%;
+    color: #f9004d;  
+}
+
+ul{
+    margin-top: -1%;
+}
+
+ul li{
+    list-style: none;
+   display: inline-block;
+    padding: 10px 16px;
+    color: ghostwhite; 
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: -1%;
+    transition: -4s ease;
+}
+
+ul li a:hover{
+    color: #f9004d;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color:#f9004d;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+. h1 span {
+    color:#f9004d;
+}
+
+h3{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 50px
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.form input: first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid:#C01700;
+    outline: none;
+    border-radius: 30px;
+}
+.forminput: first-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border-radius: 30px;
+    background-color:#f9004d;
+    color:#ffffff;
+    box-shadow:0px 0px 5px #000, 0px 0px 15px #858585;
+
+
+
+}
